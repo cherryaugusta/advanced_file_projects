@@ -36,12 +36,13 @@ The project is structured as an installable Python package using the `src/` layo
 python scripts/diary.py
 python scripts/budget.py
 python scripts/report.py
-Testing
-pytest
-Disclaimer
-This project is for educational and portfolio purposes only. Do not use real personal or financial data.
 ````
----
+
+## Testing
+pytest
+
+## Disclaimer
+This project is for educational and portfolio purposes only. Do not use real personal or financial data.
 
 ## LICENSE
 MIT License
