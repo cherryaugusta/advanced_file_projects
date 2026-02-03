@@ -1,0 +1,31 @@
+Python File Handling Notes
+
+1. File Modes:
+- r   : read
+- w   : write (overwrite existing file)
+- a   : append
+- rb  : read binary
+- wb  : write binary
+
+2. Context Managers:
+- Always use 'with' to ensure files are closed properly
+- Prevents resource leaks and file locks
+
+3. Reading Techniques:
+- read()        : reads entire file into memory
+- readline()    : reads one line at a time
+- readlines()   : reads all lines into a list
+
+4. Writing Techniques:
+- write()       : writes a single string
+- writelines()  : writes multiple strings
+
+5. Common Libraries:
+- csv     : structured tabular data
+- json    : structured hierarchical data
+- shutil  : file copying and archiving
+
+6. Best Practices:
+- Always specify encoding (utf-8)
+- Avoid hard-coded file paths
+- Use pathlib instead of os.path

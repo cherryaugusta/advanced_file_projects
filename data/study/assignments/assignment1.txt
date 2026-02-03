@@ -1,0 +1,19 @@
+Assignment 1: Python File Operations
+
+Objective:
+Practice core file handling operations in Python using real-world scenarios.
+
+Tasks:
+1. Create a text file named "tasks.txt" and write 5 task descriptions.
+2. Read the file line by line and display each task.
+3. Append two additional tasks to the file.
+4. Convert the task list into a CSV file named "tasks.csv".
+5. Create a backup copy of the original text file named "tasks_backup.txt".
+
+Requirements:
+- Use context managers ('with' statements)
+- Handle files safely using pathlib
+- Ensure files are created in the correct directory
+
+Expected Outcome:
+Demonstrate confidence in reading, writing, appending, converting, and backing up files using Python.
